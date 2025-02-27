@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+
+}
+nav a {
+  padding: 10px;
+  display: inline-block;
+}
+ 
+#featured-property p{
+  width: 800px;
+  margin: 20px;
+  text-align: center;
+}
+
+#details div{
+float: left;
+width: 30%;
+margin-right: 2%;
+box-sizing: border-box;
+}
+
+#details {
+  overflow: hidden;
+  background-color: #f4f4f4;
+  padding: 20px 0;
+}
+
+#bottom-row{
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.bottom-box{
+  width: 25%;
+  text-align: center;
+  padding: 15px;
+  background-color: #ccc;
+  border: 1px solid #999;
+  box-sizing: border-box;
+}
